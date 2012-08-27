@@ -18,7 +18,7 @@
 					}
 				});
 				var dormId = $(this).html();
-				$.get("http://www.mkx.cdpa.tw/dormIP/Dorm"+dormId+"_IP.txt", function(res){
+				$.get("./dormIP/Dorm"+dormId+"_IP.txt", function(res){
 					$("#iptable").html("<pre>"+res+"</pre>");
 				});
 				$("body").scrollTop(0);
