@@ -26,7 +26,7 @@ function printDormIPPage($selDorm){
 <div class="navbar wrap">
 	<div class="navbar-inner">
 		<div class="container">
-			<a class="brand" href="/dorm.html">CDPA Dorm IP tables</a>
+			<a class="brand" href="#">CDPA Dorm IP tables</a>
 			<ul class="nav">
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">翠亨 <b class="caret"></b></a>
