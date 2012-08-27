@@ -8,14 +8,8 @@ function printDormIPPage($selDorm){
 		$(document).ready(function(){
 			$(".dorm").click(function(){
 				var cur = this;
-				$(".dorm").each(function(){
-					if ( this == cur ) {
-						$(this).parent().attr("class", "active");
-					}
-					else {
-						$(this).parent().attr("class", "");
-					}
-				});
+				$(".active > .dorm").parent().removeClass('active');
+				$(this).parent().addClass( "active");
 				var dormId = $(this).html();
 				$.get("./dormIP/Dorm"+dormId+"_IP.txt", function(res){
 					$("#iptable").html("<pre>"+res+"</pre>");
