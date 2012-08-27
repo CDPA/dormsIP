@@ -62,7 +62,9 @@ function printDormIPPage($selDorm){
 <?php 
 		$dormList = array('1','2','3','4','A','B','C','D','E','F','G','H','L');
 		if(in_array($selDorm,$dormList)){
-		    require(dirname(__FILE__) . "/dormIP/Dorm".$selDorm."_IP.txt");
+		    echo '<pre>' .
+		    file_get_contents(dirname(__FILE__) . "/dormIP/Dorm".$selDorm."_IP.txt").
+			'</pre>';
 		}else{
 ?>
 			<div class="row">
