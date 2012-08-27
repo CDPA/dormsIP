@@ -7,7 +7,6 @@ function printDormIPPage($selDorm){
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$(".dorm").click(function(){
-				var cur = this;
 				$(".active > .dorm").parent().removeClass('active');
 				$(this).parent().addClass( "active");
 				var dormId = $(this).html();
