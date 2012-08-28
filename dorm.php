@@ -30,24 +30,24 @@ function printDormIPPage($selDorm){
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">翠亨 <b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a class="dorm" href="#A">A</a></li>
-						<li><a class="dorm" href="#B">B</a></li>
-						<li><a class="dorm" href="#C">C</a></li>
-						<li><a class="dorm" href="#D">D</a></li>
-						<li><a class="dorm" href="#E">E</a></li>
-						<li><a class="dorm" href="#F">F</a></li>
-						<li><a class="dorm" href="#G">G</a></li>
-						<li><a class="dorm" href="#H">H</a></li>
-						<li><a class="dorm" href="#L">L</a></li>
+						<li><a class="dorm" href="dormAIP.html">A</a></li>
+						<li><a class="dorm" href="dormBIP.html">B</a></li>
+						<li><a class="dorm" href="dormCIP.html">C</a></li>
+						<li><a class="dorm" href="dormDIP.html">D</a></li>
+						<li><a class="dorm" href="dormEIP.html">E</a></li>
+						<li><a class="dorm" href="dormFIP.html">F</a></li>
+						<li><a class="dorm" href="dormGIP.html">G</a></li>
+						<li><a class="dorm" href="dormHIP.html">H</a></li>
+						<li><a class="dorm" href="dormLIP.html">L</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">武嶺 <b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a class="dorm" href="#1">1</a></li>
-						<li><a class="dorm" href="#2">2</a></li>
-						<li><a class="dorm" href="#3">3</a></li>
-						<li><a class="dorm" href="#4">4</a></li>
+						<li><a class="dorm" href="dorm1IP.html">1</a></li>
+						<li><a class="dorm" href="dorm2IP.html">2</a></li>
+						<li><a class="dorm" href="dorm3IP.html">3</a></li>
+						<li><a class="dorm" href="dorm4IP.html">4</a></li>
 					</ul>
 				</li>
 			</ul>
