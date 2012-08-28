@@ -1,7 +1,7 @@
 <?php 
 function printDormIPPage($selDorm){
 ?>
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/css/bootstrap-combined.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<script type="text/javascript" src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.8.0.min.js"></script>
 	<script type="text/javascript">
