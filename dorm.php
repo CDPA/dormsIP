@@ -14,7 +14,6 @@ function printDormIPPage($selDorm){
 					$("#iptable").html("<pre>"+res+"</pre>");
 				});
 				$("body").scrollTop(0);
-				return false;
 			});
 		});
 	</script>
